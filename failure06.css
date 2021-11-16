@@ -1,0 +1,23 @@
+/* 노멀라이징 */
+*{
+    margin: 0 ;
+    padding: 0 ;
+  }
+  ul , li {
+    list-style: none ;
+  }
+  a{
+    color: inherit ;
+    text-decoration: none ;
+  }
+  html,body{
+    overflow-x : hidden ;
+  }
+  /* 라이브러리 */
+  
+  /* 스타일 */
+  /* main start */
+  .main > .diary{
+    
+  }
+  /* main end */
