@@ -1,23 +1,151 @@
 /* 노멀라이징 */
 *{
-    margin: 0 ;
-    padding: 0 ;
-  }
-  ul , li {
-    list-style: none ;
-  }
-  a{
-    color: inherit ;
-    text-decoration: none ;
-  }
-  /* 라이브러리 */
-  /* 스타일 */
-  .swiper-container > .swiper-wrapper > .main{
-    position : relative ;
-  }
-  
-  .swiper-container > .swiper-wrapper > .main > .diary{
-    width : 600px ;
-    height : 800px ;
-    background-color : gray ;
-  }
+  margin: 0 ;
+  padding: 0 ;
+}
+ul , li {
+  list-style: none ;
+}
+a{
+  color: inherit ;
+  text-decoration: none ;
+}
+html,body{
+  overflow-x : hidden ;
+}
+/* 라이브러리 */
+.cell{
+  float : left ;
+}
+.row::after{
+  clear : both;
+  content : "";
+  display : block;
+}
+.content{
+  height : 100vh ;
+  box-sizing : border-box ;
+  border : 5px black solid ;
+}
+/* 스타일 */
+/* first-chapter start */
+.slider-wrap > .slider > .first-chapter{
+  position : relative ; 
+}
+
+.slider-wrap > .slider > .first-chapter > .diary{
+  width : 35% ;
+  position : absolute ;
+  top : 50% ;
+  left : 50% ;
+  transform : translate(-50%,-50%) ;
+  box-sizing : border-box ;
+  position : relative ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .left{
+  width : 90% ;
+  padding-bottom : 120% ;
+  background-color : rgba(241, 185, 186) ; 
+  box-sizing : border-box ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .left > .left-img{
+  width : 30% ;
+  padding-bottom : 55% ;
+  background-color : skyblue ;
+  position : absolute ;
+  bottom : 50% ;
+  left : 30% ;
+  transform: translate(-30%) rotate(-30deg);
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .left > .right-img{
+  width : 30% ;
+  padding-bottom : 55% ;
+  background-color : skyblue ;
+  position : absolute ;
+  bottom : 10% ;
+  right : 20% ;
+  transform: translate(-30%) rotate(20deg);
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right{
+  width : 10% ;
+  padding-bottom : 50% ;
+  box-sizing : border-box ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu{
+  width : 20% ;
+  height : 100% ;
+  position : absolute ;
+  right : -10% ;
+  box-sizing : border-box ;
+  text-align : center ;
+} 
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul{
+  height : 100% ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li{
+/*   padding-bottom : 20% ; */
+  height : 50px ;
+  border : 1px black solid ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li:nth-child(1) {
+  background-color : rgba(224, 34, 44) ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li:nth-child(2) {
+  background-color : rgba(249 , 160, 102) ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li:nth-child(3) {
+  background-color : rgba(208, 76, 149) ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li:nth-child(4) {
+  background-color : rgba(248, 228, 71) ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li:nth-child(5) {
+  background-color : rgba(154, 203, 96) ;
+}
+
+.slider-wrap > .slider > .first-chapter > .diary > .right > .menu > ul > li:nth-child(6) {
+  background-color : rgba(51, 175, 227) ;
+}
+
+.slider-wrap > .slider > .first-chapter > .pen01{
+  width : 5% ;
+  padding-bottom : 30% ;
+  background-color : gray ;
+  position : absolute ;
+  top : 50% ;
+  left : 10% ;
+  transform : rotate(20deg) translate(-10%,-50%);
+}
+
+.slider-wrap > .slider > .first-chapter > .pen02{
+  width : 5% ;
+  padding-bottom : 30% ;
+  background-color : gray ;
+  position : absolute ;
+  top : 50% ;
+  right : 20% ;
+  transform : rotate(20deg) translate(-20%,-50%);
+}
+
+.slider-wrap > .slider > .first-chapter > .pen03{
+  width : 5% ;
+  padding-bottom : 30% ;
+  background-color : gray ;
+  position : absolute ;
+  top : 30% ;
+  right : 5% ;
+  transform : rotate(-35deg) translate(-5%,-30%);
+}
+/* first-chapter end */
