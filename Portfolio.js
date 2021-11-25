@@ -11,4 +11,24 @@ $(document).ready(function(){
       $(".paper03 > .left-btn").click(function(){
         $(".paper03").toggleClass("active");
       });
+
+        
+ $(".slider").each(function (index, node) {
+  var $group = $(node);
+  var $content = $group.find(" > .content");
+
+  gsap.to($content, {
+      xPercent: -100 * ($content.length - 1),
+      ease: "none",
+      scrollTrigger: {
+          trigger: $group,
+          start: "top top",
+          end: "+=" + ($content.length - 1) + "00%",
+          pin: true,
+          scrub: true,
+          markers:true
+      }
+  });
+});
+
 });
