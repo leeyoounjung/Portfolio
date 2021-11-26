@@ -10,9 +10,9 @@ a{
   color: inherit ;
   text-decoration: none ;
 }
-html,body{
+/* html,body{
   overflow-x : hidden ;
-}
+} */
 /* 라이브러리 */
 .cell{
   float : left ;
@@ -27,23 +27,22 @@ html,body{
 }
 .slider-wrap{
   box-sizing : border-box ;
-  /*   display : flex ; */
+/*   display : flex ; */
 }
 .slider{
   box-sizing : border-box ;
-  display: flex ;
+  display : flex ;
 /*   overflow: visible; */
 /*   white-space:nowrap;  */
 /*   overflow-x : auto; */
 /*   flex-wrap: nowrap; */
 }
 .content{
-  min-height:  100vh ;
+  min-height : 100vh ;
   box-sizing : border-box ;
-  /* position: flex ; */
-  width: 100% ;
-  flex-shrink: 0 ;
-  border : 10px solid black ;
+/*   display : flex ; */
+  width : 100% ;
+  flex-shrink : 0 ;
   flex: 0 0 auto;
 }
 /* 스타일 */
@@ -95,7 +94,8 @@ html,body{
   box-sizing : border-box ;
 } */
 
-/* .slider-wrap .slider > .first-chapter > .diary > .right > .menu{
+/* 
+.slider-wrap > .slider > .first-chapter > .diary > .menu{
   box-sizing : border-box ;
   text-align : center ;
 }  */
@@ -106,6 +106,7 @@ html,body{
   transform : translatey(-50%) ;
   height : 100% ;
   text-align : center ;
+/*   width : 20% ; */
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .menu > ul > li{
@@ -132,10 +133,12 @@ html,body{
 
 .slider-wrap .slider > .first-chapter > .diary > .menu > ul > li:nth-child(5) {
   background-color : rgba(154, 203, 96) ;
+  line-height : 300% ;
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .menu > ul > li:nth-child(6) {
   background-color : rgba(51, 175, 227) ;
+  line-height : 300% ;
 }
 
 .slider-wrap .slider > .first-chapter > .pen01{
@@ -164,8 +167,8 @@ html,body{
   background-color : gray ;
   position : absolute ;
   top : 30% ;
-  right : 5% ;
-  transform : rotate(-35deg) translate(-5%,-30%);
+  right : 3% ;
+  transform : rotate(-35deg) translate(-3%,-30%);
 }
 /* first-chapter end */
 /* personal-data start */
@@ -255,6 +258,7 @@ html,body{
   box-sizing : border-box ;
   background-color : rgba(241,185,185) ;
   position : relative ;
+  overflow : hidden ;
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper{
@@ -266,6 +270,28 @@ html,body{
   transform : translate(-50%,-50%) ;
   box-sizing : border-box ;
   background-color : rgba(254,234,234) ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .left-btn{
+  width : 15% ;
+  height : 10% ;
+  position : absolute ;
+  top : -6% ;
+  left : -8% ;
+  transform : translatey(6%,8%) ;
+  background-color : gray ;
+  cursor : pointer ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .right-btn{
+  width : 15% ;
+  height : 10% ;
+  position : absolute ;
+  top : -6% ;
+  right : -8% ;
+  transform : translatey(6%,8%) ;
+  background-color : gray ;
+  cursor : pointer ;
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .title{
@@ -280,9 +306,8 @@ html,body{
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .list > .txt-wrap > .txt-bar{
-  margin-bottom : 5% ;
+  margin-bottom : 13% ;
 }
-
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .list > .txt-wrap > .txt-bar:last-child{
   margin-bottom : 0 ;
@@ -368,7 +393,6 @@ html,body{
   transform : translate(-10%,-30%) ;
 }
 
-
 .slider-wrap .slider > .web-project > .diary-wrap{
   width : 35% ;
   padding-bottom : 45% ;
@@ -378,7 +402,8 @@ html,body{
   transform : translate(-50%,-50%) ;
   box-sizing : border-box ;
   background-color : rgba(241,185,185) ;
-  position : relative ;
+/*   position : relative ; */
+  z-index : 9 ;
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap > .paper{
@@ -467,6 +492,19 @@ html,body{
   height : 10% ;
   box-sizing : border-box ;
   border-bottom : 2px black solid ;
+  line-height : 480% ;
+}
+
+.slider-wrap .slider > .web-project > .back-paper{
+  width : 35% ;
+  padding-bottom : 45% ;
+  position : absolute ;
+  top : 55% ;
+  left : 55% ;
+  transform : translate(-55%,-55%) ;
+  box-sizing : border-box ;
+  background-color : gray ;
+  z-index : 0 ;
 }
 /* web-project end */
 /* art-work start */
@@ -699,6 +737,7 @@ html,body{
 /* last-chapter start */
 .slider-wrap .slider > .last-chapter{
   position : relative ; 
+  overflow-x : hidden ;
 }
 
 .slider-wrap .slider > .last-chapter > .diary{
@@ -712,58 +751,98 @@ html,body{
 }
 
 .slider-wrap .slider > .last-chapter > .diary > .left{
-  width : 90% ;
+  width : 100% ;
   padding-bottom : 120% ;
   background-color : rgba(241, 185, 186) ; 
   box-sizing : border-box ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right{
+/* .slider-wrap .slider > .last-chapter > .diary > .right{
   width : 10% ;
   padding-bottom : 50% ;
   box-sizing : border-box ;
-}
+} */
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu{
+/* .slider-wrap .slider > .last-chapter > .diary > .menu{
   width : 20% ;
   height : 100% ;
   position : absolute ;
   left : -20% ;
   box-sizing : border-box ;
   text-align : center ;
-} 
+}  */
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul{
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul{
+  position : absolute ;
+  top : 50% ;
+  left : -25% ;
+  transform : translate(25%,-50%) ;
   height : 100% ;
+  text-align : center ;
+  width : 20% ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li{
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li{
 /*   padding-bottom : 20% ; */
   height : 50px ;
   border : 1px black solid ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li:nth-child(1) {
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(1) {
   background-color : rgba(224, 34, 44) ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li:nth-child(2) {
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(2) {
   background-color : rgba(249 , 160, 102) ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li:nth-child(3) {
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(3) {
   background-color : rgba(208, 76, 149) ;
+  line-height : 300% ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li:nth-child(4) {
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(4) {
   background-color : rgba(248, 228, 71) ;
+  line-height : 300% ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li:nth-child(5) {
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(5) {
   background-color : rgba(154, 203, 96) ;
+  line-height : 300% ;
 }
 
-.slider-wrap .slider > .last-chapter > .diary > .right > .menu > ul > li:nth-child(6) {
+.slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(6) {
   background-color : rgba(51, 175, 227) ;
+  line-height : 300% ;
+}
+
+.slider-wrap .slider > .last-chapter > .pen01{
+  width : 5% ;
+  padding-bottom : 30% ;
+  background-color : gray ;
+  position : absolute ;
+  top : 50% ;
+  left : 10% ;
+  transform : rotate(20deg) translate(-10%,-50%);
+}
+
+.slider-wrap .slider > .last-chapter > .pen02{
+  width : 5% ;
+  padding-bottom : 30% ;
+  background-color : gray ;
+  position : absolute ;
+  top : 50% ;
+  right : 20% ;
+  transform : rotate(20deg) translate(-20%,-50%);
+}
+
+.slider-wrap .slider > .last-chapter > .pen03{
+  width : 5% ;
+  padding-bottom : 30% ;
+  background-color : gray ;
+  position : absolute ;
+  top : 30% ;
+  right : 3% ;
+  transform : rotate(-35deg) translate(-3%,-30%);
 }
 /* last-chapter end */
