@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js" integrity="sha512-HNbo1d4BaJjXh+/e6q4enTyezg5wiXvY3p/9Vzb20NIvkJghZxhzaXeffbdJuuZSxFhJP87ORPadwmU9aN3wSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    
+
+    <link rel="stylesheet" href="./Portfolio.css">
+    <script src="./Portfolio.js"></script>
+</head>
+<body>
+  <div class="slider-wrap">
+    <div class="slider">
+      <div class="move-menu">
+        <ul>
+          <li data-link="#section1"><p>PERSONAL DATA</p></li>
+          <li data-link="#section2"><p>OTHER INROMATION</p></li>
+          <li data-link="#section3"><p>WEB PROJECT</p></li>
+          <li data-link="#section4"><p>ART WORK</p></li>
+          <li data-link="#section5"><p>ETC</p></li>
+          <li data-link="#section6"><p>CONTACT</p></li>
+        </ul>
+      </div>
+      <div class="content content1 first-chapter">
+        <div class="diary row">
+          <div class="left cell">
+            <div class="left-img"></div>
+            <div class="right-img"></div>
+          </div>
+          <div class="menu cell">
+            <ul>
+              <li><a href="#">PERSONAL DATA</a></li>
+              <li><a href="#">OTHER INFORMATION</a></li>
+              <li><a href="#">WEB PROJECT</a></li>
+              <li><a href="#">ART WORK</a></li>
+              <li><a href="#">ETC</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pen pen01"></div>
+        <div class="pen pen02"></div>
+        <div class="pen pen03"></div>
+      </div>
+      <div id="section1" class="content personal-data">
+        <div class="main-txt">
+          <div class="right">D A T A</div>
+          <div class="left">P E R S O N A L</div>
+        </div>
+        <div class="img-box"></div>
+        <div class="data-box">
+          <div class="txt-wrap">
+            <div class="txt-bar row">
+              <P class="cell">NAME</P>
+              <div class="txt cell">이윤정 (LEE Yooun Jung)</div>
+            </div>
+          </div>
+          <div class="txt-wrap">
+            <div class="txt-bar row">
+              <P class="cell">BIRTHDAY</P>
+              <div class="txt cell">99.00.00</div>
+            </div>
+          </div>
+          <div class="txt-wrap">
+            <div class="txt-bar row">
+              <P class="cell">ADDRESS</P>
+              <div class="txt cell">대전 동구</div>
+            </div>
+          </div>
+          <div class="txt-wrap">
+            <div class="txt-bar row">
+              <P class="cell">MOBILE</P>
+              <div class="txt cell">010-0000-0000</div>
+            </div>
+          </div>
+          <div class="txt-wrap">
+            <div class="txt-bar row">
+              <P class="cell">E - MAIL</P>
+              <div class="txt cell">isj9905@naver.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section2" class="content other-data">
+        <div class="main-txt">
+          <div class="right">I N F O R M A T I O N</div>
+          <div class="left">O T H E R</div>
+        </div>
+        <div class="diary-wrap">
+          <div class="paper paper01">
+            <div class="right-btn"></div>
+            <div class="title">자격증</div>
+            <div class="list">
+              <div class="txt-wrap">
+                <div class="txt-bar row">
+                  <div class="box cell"></div>
+                  <div class="txt cell">컴퓨터 활용능력 2급</div>
+                </div>
+                <div class="txt-bar row">
+                  <div class="box cell"></div>
+                  <div class="txt cell">운전면허증</div>
+                </div>
+              </div>
+            </div>
+            <div class="page-number">-1-</div>
+          </div>
+          <div class="paper paper02">
+            <div class="left-btn"></div>
+            <div class="right-btn"></div>
+            <div class="title">경력 및 학력</div>
+            <div class="list">
+              <div class="txt-wrap">
+                <div class="txt-bar row">
+                  <div class="box cell"></div>
+                  <div class="txt cell">학교졸업</div>
+                </div>
+                <div class="txt-bar row">
+                  <div class="box cell"></div>
+                  <div class="txt cell">경력</div>
+                </div>
+              </div>
+            </div>
+            <div class="page-number">-2-</div>
+          </div>
+          <div class="paper paper03">
+            <div class="left-btn"></div>
+            <div class="title">스킬</div>
+            <div class="list">
+              <div class="txt-wrap">
+                <div class="txt-bar row">
+                  <div class="img-box cell"></div>
+                  <div class="txt cell">JS</div>
+                </div>
+                <div class="txt-bar row">
+                  <div class="img-box cell"></div>
+                  <div class="txt cell">CSS</div>
+                </div>
+                <div class="txt-bar row">
+                  <div class="img-box cell"></div>
+                  <div class="txt cell">HTML</div>
+                </div>
+                <div class="txt-bar row">
+                  <div class="img-box cell"></div>
+                  <div class="txt cell">포토샵</div>
+                </div>
+                <div class="txt-bar row">
+                  <div class="img-box cell"></div>
+                  <div class="txt cell">일러스트</div>
+                </div>
+              </div>
+            </div>
+            <div class="page-number">-3-</div>
+            <div class="out"></div>
+            <div class="in"></div>
+          </div>
+        </div>
+      </div>
+      <div id="section3" class="content web-project">
+        <div class="main-txt">
+          <div class="right">P R O J E C T</div>
+          <div class="left">W E B</div>
+        </div>
+        <div class="diary-wrap">
+          <div class="paper row">
+            <div class="txt-wrap row">
+              <div class="day-box cell">2021.10.18</div>
+              <div class="box cell">~</div>
+              <div class="day-box cell">2021.11.02</div>
+            </div>
+            <div class="information-wrap">
+              <div class="left-wrap cell">
+                <div class="img-box"></div>
+                <div class="move-box">
+                  <a href="https://codepen.io/dldbswjdddl/pen/eYEyNao?editors=1000">작업 과정 <br> 보러가기</a>
+                </div>
+                <div class="img-box"></div>
+              </div>
+              <div class="right-wrap cell">
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+                <div class="txt-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="back-paper"></div>
+      </div>
+      <div id="section4" class="content art-work">
+        <div class="main-txt">
+          <div class="right">W O R K</div>
+          <div class="left">A R T</div>
+        </div>
+        <div class="diary-wrap">
+          <div class="paper row">
+            <div class="section section01 cell">
+              <div class="img-wrap">
+                <div class="img-box"></div>
+              </div>
+              <div class="txt-wrap">
+                <div class="txt-box row">
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>목적</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>주제</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>작업기간</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>사용색</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section section02 cell">
+              <div class="img-wrap">
+                <div class="img-box"></div>
+              </div>
+              <div class="txt-wrap">
+                <div class="txt-box row">
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>목적</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>주제</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>작업기간</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>사용색</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section section03 cell">
+              <div class="img-wrap">
+                <div class="img-box"></div>
+              </div>
+              <div class="txt-wrap">
+                <div class="txt-box row">
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>목적</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>주제</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>작업기간</p>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <div class="box cell"></div>
+                    <div class="txt cell">
+                      <p>사용색</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section5" class="content etc">
+        <div class="main-txt">
+          <div class="left">E T C</div>
+        </div>
+        <div class="diary-wrap">
+          <div class="paper">
+            <div class="section section01">
+              <div class="img-box"></div>
+              <div class="txt-box">~작업</div>
+            </div>
+            <div class="section section02">
+              <div class="img-box"></div>
+              <div class="txt-box">~작업</div>
+            </div>
+            <div class="section section03">
+              <div class="img-box"></div>
+              <div class="txt-box">~작업</div>
+            </div>
+            <div class="section section04">
+              <div class="img-box"></div>
+              <div class="txt-box">~작업</div>
+            </div>
+            <div class="section section05">
+              <div class="img-box"></div>
+              <div class="txt-box">~작업</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section6" class="content contact">
+        <div class="diary-wrap">
+          <div class="memo">
+            <ul>
+              <li><a href="#">카카오톡 오픈채팅</a></li>
+              <li><a href="https://github.com/leeyoounjung">깃 허브</a></li>
+              <li><a href="https://to2.kr/dcU">이윤정 위키</a></li>
+              <li><a href="#">포트폴리오 진행 과정</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content last-chapter">
+        <div class="diary row">
+          <div class="left cell"></div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">PERSOMAL <br> DATA</a></li>
+              <li><a href="#">OTHER <br> INFORMATION</a></li>
+              <li><a href="#">WEB PROJECT</a></li>
+              <li><a href="#">ART-WORK</a></li>
+              <li><a href="#">ETC</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pen pen01"></div>
+        <div class="pen pen02"></div>
+        <div class="pen pen03"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
