@@ -30,11 +30,27 @@ $(document).ready(function(){
         });
     });
    
-
+console.clear();
+  var $window = $(window);
+  
+  $window.scroll(function(){
+     var scrollTop = $window.scrollTop();
+    
+    console.log("scrolltop :" + scrollTop);
+        
+     if (scrollTop <= 700){
+      $(".slider-wrap .slider > .move-menu").removeClass("active")
+    } else if(scrollTop >= 700){
+       $(".slider-wrap .slider > .move-menu").addClass("active")
+    } else if(scrollTop == 4500){
+      $(".slider-wrap .slider > .move-menu").removeClass("active")
+    }
+    
+  });
+  
+  // function fnMove(seq){
+  //       var offset = $(".content" + seq).offset();
+  //       $('html, body').animate({scrollTop : offset.top}, 400);
+  //   }
   
 });
-
-  function fnMove(seq){
-        var offset = $(".content" + seq).offset();
-        $('html, body').animate({scrollTop : offset.top}, 400);
-    }

@@ -46,6 +46,34 @@ a{
   flex: 0 0 auto;
 }
 /* 스타일 */
+/* move-menu start */
+.slider-wrap .slider > .move-menu{
+  position : absolute ;
+  font-size : 20px ;
+  text-align : center ;
+  width : 13% ;
+  background-color : green ;
+  top : 50% ;
+  transform : translatey(-50%) ;
+  z-index : 9999 ;
+  opacity : 0 ;
+  visibility : hidden ;
+  scroll-behavior : smooth ;
+}
+
+.slider-wrap .slider > .move-menu.active{
+  opacity : 1 ;
+  visibility : visible ;
+  scroll-behavior : smooth ;
+  display : block ;
+}
+
+.slider-wrap .slider > .move-menu > ul > li{
+  padding-top : 10% ; 
+  padding-bottom : 10% ;
+  border : 1px black solid ;
+}
+/* move-menu end */
 /* first-chapter start */
 .slider-wrap .slider > .first-chapter{
   position : relative ; 
