@@ -42,15 +42,61 @@ console.clear();
       $(".slider-wrap .slider > .move-menu").removeClass("active")
     } else if(scrollTop >= 700){
        $(".slider-wrap .slider > .move-menu").addClass("active")
-    } else if(scrollTop == 4500){
+    } 
+    // else if(scrollTop >= 4500){
+    //   $(".slider-wrap .slider > .move-menu").fadeOut()
+    // }
+    
+    if(scrollTop > 5810){
       $(".slider-wrap .slider > .move-menu").removeClass("active")
     }
     
   });
-  
-  // function fnMove(seq){
-  //       var offset = $(".content" + seq).offset();
-  //       $('html, body').animate({scrollTop : offset.top}, 400);
-  //   }
+console.log($(this).scrollTop());
+            if ($(this).scrollTop() == 0) {
+                $(".move-menu").hide();
+            }
+            $(document).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $(".move-menu").show();
+                } else {
+                    $(".move-menu").hide();
+                }
+            })
+
+            $(".move01").click(function() {
+                $("html,body").animate({
+                    scrollTop: 900
+                }, 1000)
+            })
+            $(".move02").click(function() {
+                $("html,body").animate({
+                    scrollTop: 1800
+                }, 1000)
+            })
+             $(".move03").click(function() {
+                $("html,body").animate({
+                    scrollTop: 2800
+                }, 1000)
+            })
+             $(".move04").click(function() {
+                $("html,body").animate({
+                    scrollTop: 3800
+                }, 1000)
+            })
+             $(".move05").click(function() {
+                $("html,body").animate({
+                    scrollTop: 4800
+                }, 1000)
+            })
+             $(".move06").click(function() {
+                $("html,body").animate({
+                    scrollTop: 5813
+                }, 1000)
+            })
+  function move(){
+    window.open("https://github.com/leeyoounjung");
+    window.open("https://to2.kr/dcU");
+  }
   
 });
