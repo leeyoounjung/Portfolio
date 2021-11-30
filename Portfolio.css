@@ -300,24 +300,33 @@ a{
   background-color : rgba(254,234,234) ;
 }
 
-.slider-wrap .slider > .other-data > .diary-wrap > .paper > .left-btn{
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .btn-wrap{
+  width : 120% ;
+  height : 110% ;
+  position : absolute ;
+  top : 55% ;
+  left : 53% ;
+  transform : translate(-53%,-55%) ;
+} 
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .btn-wrap > .left-btn{
   width : 15% ;
   height : 10% ;
   position : absolute ;
-  top : -6% ;
-  left : -8% ;
-  transform : translatey(6%,8%) ;
+  top : 0 ;
+  left : 5% ;
+  transform : translate(-5%) ;
   background-color : gray ;
   cursor : pointer ;
 }
 
-.slider-wrap .slider > .other-data > .diary-wrap > .paper > .right-btn{
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .btn-wrap > .right-btn{
   width : 15% ;
   height : 10% ;
   position : absolute ;
-  top : -6% ;
-  right : -8% ;
-  transform : translatey(6%,8%) ;
+  top : 0 ;
+  right : 3% ;
+  transform : translate(-3%) ;
   background-color : gray ;
   cursor : pointer ;
 }
@@ -359,6 +368,11 @@ a{
   font-size : 20px ;
 }
 
+.slider-wrap .slider > .other-data > .diary-wrap > .paper01 > .btn-wrap.active{
+  opacity : 0 ;
+  visibility : hidden ;
+}
+
 .slider-wrap .slider > .other-data > .diary-wrap > .paper02{
   opacity : 0 ;
   visibility : hidden ;
@@ -369,6 +383,11 @@ a{
   visibility : visible ;
 }
 
+.slider-wrap .slider > .other-data > .diary-wrap > .paper02 > .btn-wrap.active{
+  opacity : 0 ;
+  visibility : hidden ;
+}
+
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03{
   opacity : 0 ;
   visibility : hidden ;
@@ -377,25 +396,6 @@ a{
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03.active{
   opacity : 1 ;
   visibility : visible ;
-}
-
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .out{
-  width : 20% ;
-  height : 30% ;
-  position: absolute ;
-  top : -20% ;
-  right : -10% ;
-  transform : translate(-20%,10%) ;
-  background-color : rgba(241,185,185) ;
-}
-
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .in{
-  width : 15% ;
-  height : 20% ;
-  background-color : rgba(254,234,234) ;
-  position : absolute ;
-  top : 0 ;
-  right : 0 ;
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .list > .txt-wrap > .txt-bar > .img-box{
@@ -502,7 +502,6 @@ a{
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap > .paper > .information-wrap > .left-wrap > .move-box{
-  background-color : gray ;
   transform : rotate(20deg) translate(-20%,-50%);
   position : absolute ;
   top : 50% ;
@@ -630,6 +629,10 @@ a{
   box-sizing : border-box ;
   margin-top : 15% ;
   font-size : 20px ;
+}
+
+.slider-wrap .slider > .art-work > .diary-wrap > .paper > .section > .txt-wrap > .txt-box > .wrap > .color{
+  
 }
 /* art-work end */
 /* etc start */
@@ -803,11 +806,11 @@ a{
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul{
   position : absolute ;
   top : 50% ;
-  left : -25% ;
-  transform : translate(25%,-50%) ;
+  left : -19% ;
+  transform : translate(19%,-50%) ;
   height : 100% ;
   text-align : center ;
-  width : 20% ;
+/*   width : 20% ; */
 }
 
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul > li{
@@ -826,12 +829,10 @@ a{
 
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(3) {
   background-color : rgba(208, 76, 149) ;
-  line-height : 300% ;
 }
 
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(4) {
   background-color : rgba(248, 228, 71) ;
-  line-height : 300% ;
 }
 
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul > li:nth-child(5) {

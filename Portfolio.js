@@ -1,16 +1,21 @@
 $(document).ready(function(){
-  $(".paper > .right-btn").click(function(){
+  $(".paper01 > .btn-wrap > .right-btn").click(function(){
     $(".paper02").addClass("active");
   });
-  $(".paper02 > .left-btn").click(function(){
+  $(".paper02 > .btn-wrap > .left-btn").click(function(){
     $(".paper02").toggleClass("active");
   });
-  $(".paper02 > .right-btn").click(function(){
+  $(".paper02 > .btn-wrap > .right-btn").click(function(){
     $(".paper03").addClass("active");
+    $(".paper02 > .btn-wrap").addClass("active");
+    $(".paper01 > .btn-wrap").addClass("active");
   });
-  $(".paper03 > .left-btn").click(function(){
+  $(".paper03 > .btn-wrap > .left-btn").click(function(){
     $(".paper03").toggleClass("active");
+    $(".paper02 > .btn-wrap").removeClass("active");
+    $(".paper01 > .btn-wrap").removeClass("active");
   });
+  
   
  $(".slider").each(function (index, node) {
         var $group = $(node);
@@ -97,6 +102,8 @@ console.log($(this).scrollTop());
   function move(){
     window.open("https://github.com/leeyoounjung");
     window.open("https://to2.kr/dcU");
+    window.open("https://codepen.io/dldbswjdddl/pen/eYEyNao?editors=1000");
+    window.open("https://codepen.io/dldbswjdddl/pen/wvqpWZO?editors=1000");
   }
   
 });
