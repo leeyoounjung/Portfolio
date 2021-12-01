@@ -212,6 +212,7 @@ a{
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
+  cursor : context-menu ;
 }
 
 .slider-wrap .slider > .personal-data > .img-box{
@@ -274,6 +275,7 @@ a{
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
+  cursor : context-menu ;
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap{
@@ -419,6 +421,7 @@ a{
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
+  cursor : context-menu ;
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap{
@@ -547,6 +550,7 @@ a{
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
+  cursor : context-menu ;
 }
 
 .slider-wrap .slider > .art-work > .diary-wrap{
@@ -648,6 +652,7 @@ a{
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
+  cursor : context-menu ;
 }
 
 .slider-wrap .slider > .etc > .diary-wrap{
@@ -672,8 +677,7 @@ a{
 
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section{
   width : 27% ;
-  padding-bottom : 20% ;
-  background-color : gray ;
+  padding-bottom : 25% ;
 }
 
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section01{
@@ -683,6 +687,10 @@ a{
   left : 10% ;
 }
 
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section01 > .img-box{
+  background-image : url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/6dd7ae50d0e9ef3acb262608f175270cf523744a/%EC%BC%84%ED%83%80%EC%9A%B0%EB%A1%9C%EC%8A%A4_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg) ;  
+}
+
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section02{
   position : absolute ;
   transform : rotate(25deg) translate(-10%,-15%);
@@ -690,18 +698,42 @@ a{
   top : 15% ;
 }
 
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section02 > .img-box{
+  background-image : url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/6dd7ae50d0e9ef3acb262608f175270cf523744a/%EC%8B%A0%EC%9D%98%EB%B6%84%EB%85%B8_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg) ;
+}
+
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section03{
   position : absolute ;
-  transform : rotate(-10deg) translate(-10%,-10%);
-  bottom : 10% ;
+  transform : rotate(-10deg) translate(-10%,-5%);
+  bottom : 5% ;
   left : 10% ;
+}
+
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section03 > .img-box{
+  background-image : url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/6dd7ae50d0e9ef3acb262608f175270cf523744a/%EB%84%A4%EC%98%A8%EC%82%AC%EC%9D%B8_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg) ;
 }
 
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section04{
   position : absolute ;
-  transform : rotate(16deg) translate(-5%,-10%);
-  bottom : 10% ;
+  transform : rotate(16deg) translate(-5%,-7%);
+  bottom : 7% ;
   right : 5% ;
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section04 > .img-box{
+  background-image : url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/6dd7ae50d0e9ef3acb262608f175270cf523744a/%ED%9C%B4%EA%B0%80%EC%A4%91%EC%9D%B8%20%EB%9E%8C%EC%A5%90_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg) ;
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section04 > .img-box{
+  position : absolute ;
+  bottom : 0 ;
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section04 > .txt-box{
+  position : absolute ;
+  top : 0 ;
 }
 
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section05{
@@ -711,11 +743,20 @@ a{
   left : 50% ;
 }
 
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .section05 > .img-box{
+  background-image : url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/6dd7ae50d0e9ef3acb262608f175270cf523744a/%EC%BB%A4%ED%8A%BC%EC%97%AC%EB%8A%94%20%EC%97%AC%EC%9E%90_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg) ;
+}
+
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section > .img-box{
   width : 100% ;
-  height : 85% ;
+  height : 75% ;
   background-color : yellow ;
   position : absolute ;
+  box-sizing : border-box ;
+  cursor : pointer ;
+  background-position : center ;
+  background-repeat : no-repeat ;
+  background-size : cover ;
 }
 
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section > .txt-box{
@@ -724,6 +765,56 @@ a{
   position : absolute ;
   bottom : 0 ;
   text-align : center ;
+  cursor : context-menu ;
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .arrow{
+  width : 150px ;
+  height : 150px ;
+  background-position : center ;
+  background-repeat : no-repeat ;
+  background-size : cover ;
+  z-index : 999 ;
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .arrow01{
+  position : absolute ;
+  top : 50% ;
+  left : 5% ;
+  transform : translate(-5%,-50%) rotate(-15deg) ;
+  background-image: url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/b4a1e3fcd3b84c31d71a590d2f5502df037be461/arrow01.png);
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .arrow02{
+  position : absolute ;
+  top : 30% ;
+  right : 30% ;
+  transform : translate(-30%,-30%) rotate(320deg);
+  background-image: url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/b4a1e3fcd3b84c31d71a590d2f5502df037be461/arrow02.png);
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .arrow03{
+  position : absolute ;
+  bottom : 5% ;
+  left : 5% ;
+  transform : translate(-5%,-5%) rotate(20deg) ;
+  background-image: url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/b4a1e3fcd3b84c31d71a590d2f5502df037be461/arrow03.png);
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .arrow04{
+  position : absolute ;
+  bottom : 20% ;
+  right : 3% ;
+  transform : translate(-3%,-20%) ;
+  background-image: url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/b4a1e3fcd3b84c31d71a590d2f5502df037be461/arrow04.png);
+}
+
+.slider-wrap .slider > .etc > .diary-wrap > .paper > .arrow05{
+  position : absolute ;
+  bottom : 18% ;
+  left : 40% ;
+  transform : translate(-40%,-18%) rotate(-5deg) ;
+  background-image: url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/b4a1e3fcd3b84c31d71a590d2f5502df037be461/arrow05.png);
 }
 /* etc end */
 /* contact start */
