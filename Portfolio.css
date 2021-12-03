@@ -408,6 +408,43 @@ a{
   margin-right : 5% ;
   margin-left : 5% ;
 }
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar{
+  display : inline-block ;
+  width : 80% ;
+  height : 5% ;
+  background-color : white ;
+  border-radius : 15px ;
+  margin-top : 10% ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .progressbar{
+  display : inline-block ;
+  background-color : gray ; 
+  border-radius : 15px ;
+  transition : 1s linear ;
+  height : 100% ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .photoshop{
+  width : 60% ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .illustrator{
+  width : 70% ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .html{
+  width : 80% ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .css{
+  width : 90% ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .js{
+  width : 50% ;
+}
 /* other-data end */
 /* web-project start */
 .slider-wrap .slider > .web-project{

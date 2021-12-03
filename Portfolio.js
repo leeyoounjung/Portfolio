@@ -9,12 +9,21 @@ $(document).ready(function(){
     $(".paper03").addClass("active");
     $(".paper02 > .btn-wrap").addClass("active");
     $(".paper01 > .btn-wrap").addClass("active");
+    $(".skill-bar > .progressbar").each(function(){
+      var $this = $(this);
+      var per = $this.attr("per");
+      $this.animate({
+        width : per + "%" ,
+      })
+    })
   });
   $(".paper03 > .btn-wrap > .left-btn").click(function(){
     $(".paper03").toggleClass("active");
     $(".paper02 > .btn-wrap").removeClass("active");
     $(".paper01 > .btn-wrap").removeClass("active");
   });
+
+  
   
   
  $(".slider").each(function (index, node) {
