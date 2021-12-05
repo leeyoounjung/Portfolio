@@ -9,23 +9,23 @@ $(document).ready(function(){
     $(".paper03").addClass("active");
     $(".paper02 > .btn-wrap").addClass("active");
     $(".paper01 > .btn-wrap").addClass("active");
-    $(".skill-bar > .progressbar").each(function(){
-      var $this = $(this);
-      var per = $this.attr("per");
-      $this.animate({
-        width : per + "%" ,
-      })
-    })
+    $(".paper03 > .skill-bar > .photoshop").addClass("active")
+    $(".paper03 > .skill-bar > .illustration").addClass("active")
+    $(".paper03 > .skill-bar > .html").addClass("active")
+    $(".paper03 > .skill-bar > .css").addClass("active")
+    $(".paper03 > .skill-bar > .js").addClass("active")
   });
   $(".paper03 > .btn-wrap > .left-btn").click(function(){
     $(".paper03").toggleClass("active");
     $(".paper02 > .btn-wrap").removeClass("active");
     $(".paper01 > .btn-wrap").removeClass("active");
+    $(".paper03 > .skill-bar > .photoshop").removeClass("active")
+    $(".paper03 > .skill-bar > .illustration").removeClass("active")
+    $(".paper03 > .skill-bar > .html").removeClass("active")
+    $(".paper03 > .skill-bar > .css").removeClass("active")
+    $(".paper03 > .skill-bar > .js").removeClass("active")
   });
-
-  
-  
-  
+   
  $(".slider").each(function (index, node) {
         var $group = $(node);
         var $content = $group.find(" > .content");
@@ -56,16 +56,12 @@ console.clear();
       $(".slider-wrap .slider > .move-menu").removeClass("active")
     } else if(scrollTop >= 700){
        $(".slider-wrap .slider > .move-menu").addClass("active")
-    } 
-    // else if(scrollTop >= 4500){
-    //   $(".slider-wrap .slider > .move-menu").fadeOut()
-    // }
-    
+    }     
     if(scrollTop > 5810){
       $(".slider-wrap .slider > .move-menu").removeClass("active")
     }
-    
   });
+  
 console.log($(this).scrollTop());
             if ($(this).scrollTop() == 0) {
                 $(".move-menu").hide();
@@ -76,43 +72,44 @@ console.log($(this).scrollTop());
                 } else {
                     $(".move-menu").hide();
                 }
-            })
+            });
 
             $(".move01").click(function() {
                 $("html,body").animate({
                     scrollTop: 900
                 }, 1000)
-            })
+            });
             $(".move02").click(function() {
                 $("html,body").animate({
                     scrollTop: 1800
                 }, 1000)
-            })
+            });
              $(".move03").click(function() {
                 $("html,body").animate({
                     scrollTop: 2800
                 }, 1000)
-            })
+            });
              $(".move04").click(function() {
                 $("html,body").animate({
                     scrollTop: 3800
                 }, 1000)
-            })
+            });
              $(".move05").click(function() {
                 $("html,body").animate({
                     scrollTop: 4800
                 }, 1000)
-            })
+            });
              $(".move06").click(function() {
                 $("html,body").animate({
                     scrollTop: 5813
                 }, 1000)
-            })
+            });
+  
   function move(){
     window.open("https://github.com/leeyoounjung");
     window.open("https://to2.kr/dcU");
     window.open("https://codepen.io/dldbswjdddl/pen/eYEyNao?editors=1000");
     window.open("https://codepen.io/dldbswjdddl/pen/wvqpWZO?editors=1000");
-  }
+  };
   
 });

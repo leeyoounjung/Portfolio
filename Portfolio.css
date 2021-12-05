@@ -401,6 +401,10 @@ a{
   visibility : visible ;
 }
 
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > p{
+  margin-left : 5% ;
+  margin-top : 5% ;
+}
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .list > .txt-wrap > .txt-bar > .img-box{
   width : 10% ;
   padding-bottom : 10% ;
@@ -410,40 +414,37 @@ a{
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar{
-  display : inline-block ;
   width : 80% ;
   height : 5% ;
   background-color : white ;
   border-radius : 15px ;
-  margin-top : 10% ;
+  margin-top : 5% ;
+  margin-left : 5% ;
 }
 
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .progressbar{
-  display : inline-block ;
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .skill{
   background-color : gray ; 
   border-radius : 15px ;
-  transition : 1s linear ;
   height : 100% ;
+  width: 10%;
+  transition : 1s ;
+  text-align : right ;
 }
 
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .photoshop{
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .photoshop.active{
   width : 60% ;
 }
-
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .illustrator{
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .illustration.active{
+  width : 60% ;
+}
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .html.active{
   width : 70% ;
 }
-
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .html{
-  width : 80% ;
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .css.active{
+  width : 75% ;
 }
-
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .css{
-  width : 90% ;
-}
-
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .js{
-  width : 50% ;
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .js.active{
+  width : 40% ;
 }
 /* other-data end */
 /* web-project start */
