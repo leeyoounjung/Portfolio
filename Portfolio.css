@@ -301,8 +301,15 @@ a{
   top : 0 ;
   left : 5% ;
   transform : translate(-5%) ;
-  background-color : gray ;
   cursor : pointer ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .btn-wrap > .left-btn > img{
+  width: 100% ;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ; 
+  transform: rotate(270deg) ;
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .btn-wrap > .right-btn{
@@ -312,8 +319,14 @@ a{
   top : 0 ;
   right : 3% ;
   transform : translate(-3%) ;
-  background-color : gray ;
   cursor : pointer ;
+}
+
+.slider-wrap .slider > .other-data > .diary-wrap > .paper > .btn-wrap > .right-btn > img{
+  width: 100% ;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;   
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .title{
@@ -388,13 +401,6 @@ a{
   margin-left : 5% ;
   margin-top : 5% ;
 }
-.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .list > .txt-wrap > .txt-bar > .img-box{
-  width : 10% ;
-  padding-bottom : 10% ;
-  background-color : yellow ;
-  margin-right : 5% ;
-  margin-left : 5% ;
-}
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar{
   width : 80% ;
@@ -406,7 +412,7 @@ a{
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .skill{
-  background-color : gray ; 
+  background-color : rgba(221,183,172) ; 
   border-radius : 15px ;
   height : 100% ;
   width: 10%;
@@ -890,7 +896,6 @@ a{
 .slider-wrap .slider > .contact > .diary-wrap{
   width : 100% ;
   height : 100% ;
-/*   background-image : url(https://image.freepik.com/free-vector/grid-background-vector-in-pink-color_53876-128363.jpg) ; */
   background-image : url(https://image.freepik.com/free-photo/cross-stitch-pattern_23-2148145960.jpg) ;
   background-position : center ;
   background-repeat : no-repeat ;
@@ -899,13 +904,16 @@ a{
 
 .slider-wrap .slider > .contact > .diary-wrap > .memo{
   width : 40% ;
-  padding-bottom : 30% ;
-  background-color : gray ;
+  padding-bottom : 40% ;
   position : absolute ;
   top : 50% ;
   left : 50% ;
   transform : translate(-50%,-50%) ;
   box-sizing : border-box ;
+  background-image : url(https://raw.githubusercontent.com/leeyoounjung/Portfolio/d7a0614c53e5ebca3707c08fb73741d11c0e63e5/%ED%8F%AC%EC%8A%A4%ED%8A%B8%EC%9E%873.png) ;
+  background-position : center ;
+  background-repeat : no-repeat ;
+  background-size : cover ;
 }
 
 .slider-wrap .slider > .contact > .diary-wrap > .memo > ul{
