@@ -151,15 +151,18 @@ a{
 }
 
 .slider-wrap .slider > .first-chapter > .pen{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width : 110px ;
-  height: 500px;
+  background-repeat : no-repeat ;
+  background-size : cover ;
+  background-position:  center ;
+  width : 8% ;
+  height : 50% ;
+}
+
+.slider-wrap .slider > .first-chapter > .pen > img{
+  width : 60% ;
 }
 
 .slider-wrap .slider > .first-chapter > .pen01{
-  background-color : gray ;
   position : absolute ;
   top : 50% ;
   left : 10% ;
@@ -167,7 +170,6 @@ a{
 }
 
 .slider-wrap .slider > .first-chapter > .pen02{
-  background-color : gray ;
   position : absolute ;
   top : 50% ;
   right : 20% ;
@@ -175,11 +177,45 @@ a{
 }
 
 .slider-wrap .slider > .first-chapter > .pen03{
-  background-color : gray ;
   position : absolute ;
   top : 30% ;
   right : 3% ;
   transform : rotate(-35deg) translate(-3%,-30%);
+}
+
+.slider-wrap .slider > .first-chapter > .pen04{
+  position : absolute ;
+  top : 30% ;
+  left : 2% ;
+  transform : translate(-2%,-30%) rotate(80deg) ;
+}
+
+.slider-wrap .slider > .first-chapter > .pen05{
+  position : absolute ;
+  top : 5% ;
+  right : 2% ;
+  transform : translate(-2%,-5%) rotate(20deg) ;
+}
+
+.slider-wrap .slider > .first-chapter > .pen06{
+  position : absolute ;
+  bottom : 3% ;
+  right : 2% ;
+  transform : translate(-2%,-3%) rotate(60deg) ;
+}
+
+.slider-wrap .slider > .first-chapter > .pen07{
+  position : absolute ;
+  top : 1% ;
+  left : 2% ;
+  transform : translate(-2%,-1%) rotate(-45deg) ;
+}
+
+.slider-wrap .slider > .first-chapter > .pen08{
+  position : absolute ;
+  bottom : 18% ;
+  left : 2% ;
+  transform : translate(-2%,-18%) rotate(-30deg) ;
 }
 /* first-chapter end */
 /* personal-data start */
@@ -439,6 +475,9 @@ a{
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .js.active{
   width : 40% ;
+}
+.slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .page-number{
+  margin-top : 7% ;
 }
 /* other-data end */
 /* web-project start */
@@ -982,20 +1021,26 @@ a{
   line-height : 300% ;
 }
 
+.slider-wrap .slider > .last-chapter > .pen{
+  background-repeat : no-repeat ;
+  background-size : cover ;
+  background-position:  center ;
+  width : 8% ;
+  height : 50% ;
+}
+
+.slider-wrap .slider > .last-chapter > .pen > img{
+  width : 60% ;
+}
+
 .slider-wrap .slider > .last-chapter > .pen01{
-  width : 5% ;
-  padding-bottom : 30% ;
-  background-color : gray ;
   position : absolute ;
-  top : 50% ;
+  top : 45% ;
   left : 10% ;
-  transform : rotate(20deg) translate(-10%,-50%);
+  transform : rotate(20deg) translate(-10%,-45%);
 }
 
 .slider-wrap .slider > .last-chapter > .pen02{
-  width : 5% ;
-  padding-bottom : 30% ;
-  background-color : gray ;
   position : absolute ;
   top : 50% ;
   right : 20% ;
@@ -1003,12 +1048,44 @@ a{
 }
 
 .slider-wrap .slider > .last-chapter > .pen03{
-  width : 5% ;
-  padding-bottom : 30% ;
-  background-color : gray ;
   position : absolute ;
   top : 30% ;
-  right : 3% ;
-  transform : rotate(-35deg) translate(-3%,-30%);
+  right : 13% ;
+  transform : rotate(-35deg) translate(-13%,-30%);
+}
+
+.slider-wrap .slider > .last-chapter > .pen04{
+  position : absolute ;
+  top : 30% ;
+  left : 2% ;
+  transform : translate(-2%,-30%) rotate(80deg) ;
+}
+
+.slider-wrap .slider > .last-chapter > .pen05{
+  position : absolute ;
+  top : 5% ;
+  right : 2% ;
+  transform : translate(-2%,-5%) rotate(20deg) ;
+}
+
+.slider-wrap .slider > .last-chapter > .pen06{
+  position : absolute ;
+  bottom : 3% ;
+  right : 12% ;
+  transform : translate(-12%,-3%) rotate(60deg) ;
+}
+
+.slider-wrap .slider > .last-chapter > .pen07{
+  position : absolute ;
+  top : 1% ;
+  left : 2% ;
+  transform : translate(-2%,-1%) rotate(-45deg) ;
+}
+
+.slider-wrap .slider > .last-chapter > .pen08{
+  position : absolute ;
+  bottom : 18% ;
+  left : 2% ;
+  transform : translate(-2%,-18%) rotate(-30deg) ;
 }
 /* last-chapter end */
