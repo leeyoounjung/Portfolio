@@ -45,6 +45,9 @@ a{
   flex-shrink : 0 ;
   flex: 0 0 auto;
 }
+.slider-wrap .slider > .content > .main-txt{
+  font-family: 'GmarketSansBold';
+}
 /* 스타일 */
 /* move-menu start */
 .slider-wrap .slider > .move-menu{
@@ -59,6 +62,8 @@ a{
   opacity : 0 ;
   visibility : hidden ;
   scroll-behavior : smooth ;
+  font-family: 'Arita-dotum-Medium';
+  font-size : 20px ;
 }
 
 .slider-wrap .slider > .move-menu.active{
@@ -127,7 +132,8 @@ a{
   transform : translatey(-50%) ;
   height : 100% ;
   text-align : center ;
-/*   width : 20% ; */
+  font-family: 'Arita-dotum-Medium';
+  font-size : 20px ; 
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .menu > ul > li{
@@ -226,12 +232,13 @@ a{
 .slider-wrap .slider > .personal-data > .main-txt{
   writing-mode : vertical-rl ;
   text-orientation : upright ;
-  font-size : 50px ;
+  font-size : 42px ;
   position : absolute ;
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
   cursor : context-menu ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .personal-data > .img-box{
@@ -274,11 +281,13 @@ a{
 .slider-wrap .slider > .personal-data > .data-box > .txt-wrap > .txt-bar > p{
   font-size : 25px ;
   width : 25% ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .personal-data > .data-box > .txt-wrap > .txt-bar > .txt{
   margin-left : 20% ;
-  font-size : 20px ;
+  font-size : 24px ;
+  font-family: 'Dovemayo-Medium';
 }
 /* personal-data end */
 /* other-data start */
@@ -289,12 +298,13 @@ a{
 .slider-wrap .slider > .other-data > .main-txt{
   writing-mode : vertical-rl ;
   text-orientation : upright ;
-  font-size : 50px ;
+  font-size : 42px ;
   position : absolute ;
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
   cursor : context-menu ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap{
@@ -369,6 +379,7 @@ a{
   height : 10% ;
   font-size : 25px ;
   text-align : center ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .list{
@@ -394,9 +405,10 @@ a{
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .list > .txt-wrap > .txt-bar > .txt{
-  font-size : 20px ;
+  font-size : 24px ;
+  font-family: 'Dovemayo-Medium';
 }
-
+ 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper > .page-number{
   height : 5%;
   text-align : center ;
@@ -436,6 +448,8 @@ a{
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > p{
   margin-left : 5% ;
   margin-top : 5% ;
+  font-family: 'Dovemayo-Medium';
+  font-size : 18px ; 
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar{
@@ -455,6 +469,7 @@ a{
   transition : 1s ;
   text-align : right ;
   line-height : 200% ;
+  font-family: 'Dovemayo-Medium';
 }
 
 .slider-wrap .slider > .other-data > .diary-wrap > .paper03 > .skill-bar > .photoshop.active{
@@ -488,12 +503,13 @@ a{
 .slider-wrap .slider > .web-project > .main-txt{
   writing-mode : vertical-rl ;
   text-orientation : upright ;
-  font-size : 50px ;
+  font-size : 42px ;
   position : absolute ;
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
   cursor : context-menu ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap{
@@ -530,8 +546,9 @@ a{
   width : 25% ;
   height : 100% ;
   text-align : center ;
-  font-size : 18px ;
   line-height : 300% ;
+  font-size : 24px ;
+  font-family: 'Dovemayo-Medium';
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap > .paper > .txt-wrap > .day-box:first-child{
@@ -546,6 +563,7 @@ a{
   line-height : 300% ;
   margin-left : 5% ;
   margin-right : 5% ;
+  font-family: 'Dovemayo-Medium';
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap > .paper > .information-wrap{
@@ -586,7 +604,9 @@ a{
   transform : rotate(20deg) translate(-20%,-50%);
   position : absolute ;
   top : 50% ;
-  left : 20% ;  ;
+  left : 20% ; 
+  font-family: 'Dovemayo-Medium';
+  font-size : 20px ;
 }
 
 .slider-wrap .slider > .web-project > .diary-wrap > .paper > .information-wrap > .right-wrap{
@@ -601,6 +621,8 @@ a{
   box-sizing : border-box ;
   border-bottom : 3px rgba(221,183,172) solid ;
   line-height : 480% ;
+  font-family: 'Dovemayo-Medium';
+  font-size : 18px ;
 }
 
 .slider-wrap .slider > .web-project > .back-paper{
@@ -623,12 +645,13 @@ a{
 .slider-wrap .slider > .art-work > .main-txt{
   writing-mode : vertical-rl ;
   text-orientation : upright ;
-  font-size : 50px ;
+  font-size : 42px ;
   position : absolute ;
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
   cursor : context-menu ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .art-work > .diary-wrap{
@@ -700,6 +723,8 @@ a{
   top : 50% ;
   left : 50% ;
   transform : translate(-50%,-50%) ;
+  font-family: 'Dovemayo-Medium';
+  font-size : 24px ;
 }
 
 .slider-wrap .slider > .art-work > .diary-wrap > .paper > .section > .txt-wrap > .txt-box > .wrap > .box{
@@ -776,12 +801,13 @@ a{
 .slider-wrap .slider > .etc > .main-txt{
   writing-mode : vertical-rl ;
   text-orientation : upright ;
-  font-size : 50px ;
+  font-size : 42px ;
   position : absolute ;
   top : 30% ;
   left : 10% ;
   transform : translate(-10%,-30%) ;
   cursor : context-menu ;
+  font-family: 'Arita-dotum-Medium';
 }
 
 .slider-wrap .slider > .etc > .diary-wrap{
@@ -807,6 +833,8 @@ a{
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section{
   width : 27% ;
   padding-bottom : 25% ;
+  font-family: 'Dovemayo-Medium';
+  font-size : 20px ;
 }
 
 .slider-wrap .slider > .etc > .diary-wrap > .paper > .section01{
@@ -962,10 +990,11 @@ a{
   transform : translate(-50%,-50%) ;
   text-align : center ;
   font-size : 24px ;
+  font-family: 'Dovemayo-Medium';
 }
 
 .slider-wrap .slider > .contact > .diary-wrap > .memo > ul > li{
-  margin-bottom : 15% ;
+  margin-bottom : 20% ;
 }
 /* contact end */
 /* last-chapter start */
@@ -994,11 +1023,12 @@ a{
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul{
   position : absolute ;
   top : 50% ;
-  left : -19% ;
-  transform : translate(19%,-50%) ;
+  left : -23% ;
+  transform : translate(23%,-50%) ;
   height : 100% ;
   text-align : center ;
-/*   width : 20% ; */
+  font-family: 'Arita-dotum-Medium';
+  font-size : 20px ;
 }
 
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul > li{
@@ -1089,3 +1119,17 @@ a{
   transform : translate(-2%,-18%) rotate(-30deg) ;
 }
 /* last-chapter end */
+/* font start */
+@font-face {
+    font-family: 'Dovemayo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font end */
