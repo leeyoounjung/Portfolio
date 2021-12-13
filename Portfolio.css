@@ -102,28 +102,46 @@ a{
 .slider-wrap .slider > .first-chapter > .diary > .left{
   width : 100% ;
   padding-bottom : 120% ;
-  background-color : rgba(241, 185, 186) ; 
+  background-color : rgba(221,183,172) ; 
   box-sizing : border-box ;
+  position : relative ;
 }
 
-.slider-wrap .slider > .first-chapter > .diary > .left > .left-img{
-  width : 30% ;
-  padding-bottom : 55% ;
-  background-color : skyblue ;
+.slider-wrap .slider > .first-chapter > .diary > .left > .year{
+  margin-bottom : 3% ;
+  text-align : center ;
+  background-color : yellow ;
   position : absolute ;
-  bottom : 50% ;
-  left : 30% ;
-  transform: translate(-30%) rotate(-30deg);
+  top : 15% ;
+  left : 50% ;
+  transform : translate(-50%,-15%) ;
+  font-size : 50px ;
 }
 
-.slider-wrap .slider > .first-chapter > .diary > .left > .right-img{
-  width : 30% ;
-  padding-bottom : 55% ;
-  background-color : skyblue ;
+.slider-wrap .slider > .first-chapter > .diary > .left > .year > .top{
+  width : 100% ;
+}
+
+.slider-wrap .slider > .first-chapter > .diary > .left > .year > .bottom{
+  width : 100% ;
+}
+
+.slider-wrap .slider > .first-chapter > .diary > .left > .year > .top > .box{
+  width : calc(100%/2) ;
+}
+
+.slider-wrap .slider > .first-chapter > .diary > .left > .year > .bottom > .box{
+  width : calc(100%/2) ;
+}
+
+.slider-wrap .slider > .first-chapter > .diary > .left > .comment{
+  background-color : yellow ;
+  width : 25% ;
   position : absolute ;
-  bottom : 10% ;
-  right : 20% ;
-  transform: translate(-30%) rotate(20deg);
+  top : 50% ;
+  left : 50% ;
+  transform : translate(-50%,-50%) ;
+  text-align : center ;
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .menu > ul{
@@ -1016,8 +1034,33 @@ a{
 .slider-wrap .slider > .last-chapter > .diary > .left{
   width : 100% ;
   padding-bottom : 120% ;
-  background-color : rgba(241, 185, 186) ; 
+  background-color : rgba(221,183,172) ; 
   box-sizing : border-box ;
+  position : relative ;
+}
+
+.slider-wrap .slider > .last-chapter > .diary > .left > .left-img{
+  width : 30% ;
+  position : absolute ;
+  top : 20% ;
+  left : 30% ;
+  transform: translate(-30%,-20%) rotate(-30deg);
+}
+
+.slider-wrap .slider > .last-chapter > .diary > .left > .left-img > img{
+  width : 100% ;
+}
+
+.slider-wrap .slider > .last-chapter > .diary > .left > .right-img{
+  width : 30% ;
+  position : absolute ;
+  bottom : 10% ;
+  right : 10% ;
+  transform: translate(-10%,-10%) rotate(20deg);
+}
+
+.slider-wrap .slider > .last-chapter > .diary > .left > .right-img > img{
+  width : 100% ;
 }
 
 .slider-wrap .slider > .last-chapter > .diary > .menu > ul{
