@@ -110,12 +110,12 @@ a{
 .slider-wrap .slider > .first-chapter > .diary > .left > .year{
   margin-bottom : 3% ;
   text-align : center ;
-  background-color : yellow ;
   position : absolute ;
   top : 15% ;
   left : 50% ;
   transform : translate(-50%,-15%) ;
   font-size : 50px ;
+  font-family: 'GimpoBatang00';
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .left > .year > .top{
@@ -135,13 +135,14 @@ a{
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .left > .comment{
-  background-color : yellow ;
   width : 25% ;
   position : absolute ;
   top : 50% ;
   left : 50% ;
   transform : translate(-50%,-50%) ;
   text-align : center ;
+  font-family: 'GowunDodum-Regular';
+  font-size : 30px ;
 }
 
 .slider-wrap .slider > .first-chapter > .diary > .menu > ul{
@@ -261,13 +262,18 @@ a{
 
 .slider-wrap .slider > .personal-data > .img-box{
   width : 23% ;
-  padding-bottom : 23% ;
-  background-color : rgba(241,185,185) ;
   border-radius : 50% ;
   position : absolute ;
   top : 40% ;
   left : 30% ;
   transform : translate(-30%,-40%) ;
+  background-position : center ;
+  background-repeat : no-repeat ;
+  background-size : cover ;
+}
+
+.slider-wrap .slider > .personal-data > .img-box > img{
+  width : 100% ;
 }
 
 .slider-wrap .slider > .personal-data > .data-box{
@@ -1172,6 +1178,18 @@ a{
 @font-face {
     font-family: 'Arita-dotum-Medium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GimpoBatang00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/GimpoBatang00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

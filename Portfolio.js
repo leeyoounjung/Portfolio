@@ -39,7 +39,6 @@ $(document).ready(function(){
                 end: "+=" + ($content.length - 1) + "00%",
                 pin: true,
                 scrub: true,
-                markers:true
             }
         });
     });
